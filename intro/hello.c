@@ -3,6 +3,6 @@
 int
 main(void)
 {
-    printf("hello world from process ID %ld\n", (long) getpid());
+    printf("hello world from process ID %d, %d, %d\n", (int) getpid(), (int) getppid(), (int) getpgrp());
     exit(0);
 }
