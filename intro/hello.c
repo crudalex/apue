@@ -1,7 +1,7 @@
 #include "apue.h"
 
 int main(void) {
-
-    printf("Hello world form proces id %ld\n", (long) getpid());
-
+    printf("hello world from process ID %d, %d, %d\n", (int) getpid(), (int) getppid(), (int) getpgrp());
+    exit(0);
 }
+
