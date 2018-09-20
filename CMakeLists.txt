@@ -4,5 +4,7 @@ project(apue C)
 set(CMAKE_C_STANDARD 11)
 link_libraries(apue)
 
-add_subdirectory(intro)
+add_subdirectory(01_intro)
+
+add_subdirectory(02_standard)
 
