@@ -39,24 +39,18 @@ int main(int argc, char *argv[]) {
     if (FD_ISSET(STDIN_FILENO, &readfds)) {
         char buf[BUF_LEN + 1];
         int len;
-
         len = (int) read(STDIN_FILENO, buf, BUF_LEN);
         if (len == -1) {
             perror("read");
             return 1;
         }
-
         if (len) {
             buf[len] = 0;
             printf("read: %s\n", buf);
         }
-
         return 0;
     }
 
     fprintf(stderr, "This should not happen!\n");
     return 1;
-
 }
-
-

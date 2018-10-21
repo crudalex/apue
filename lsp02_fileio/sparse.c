@@ -9,7 +9,7 @@
 #include <stdlib.h>
 #include <memory.h>
 
-#define FILE_NAME "/home/atwlam/sparse.hole"
+#define FILE_NAME "./sparse.hole"
 #define FILE_SIZE 1024 * 1024 * 1024 * 1024
 
 int main(int argc, char *argv[]) {
