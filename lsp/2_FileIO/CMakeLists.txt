@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(apue C)
+project(C)
 
 set(CMAKE_C_STANDARD 11)
 
@@ -8,3 +8,5 @@ add_executable(sparse sparse.c)
 add_executable(truncate truncate.c)
 add_executable(write write.c)
 add_executable(select select.c)
+add_executable(open open.c)
+
