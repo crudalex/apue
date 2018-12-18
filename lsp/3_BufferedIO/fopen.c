@@ -7,7 +7,7 @@
 
 
 #if defined(__linux__)
-  #define TEMP_FILE "/Users/atwlam/temp.file"
+  #define TEMP_FILE "/tmp/file"
 #elif defined(_WIN32)
   #define TEMP_FILE "C:\\temp.file"
 #endif
